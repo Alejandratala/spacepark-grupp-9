@@ -20,7 +20,7 @@ namespace SpaceParkConsole
 // Testing the actions
         public static int Show(string prompt, string[] options)
         {
-            Console.Clear();
+            Console.Clearr();
             if (options == null || options.Length == 0)
             {
                 throw new ArgumentException("Cannot show a menu for an empty array of options.");
