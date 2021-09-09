@@ -17,10 +17,10 @@ namespace SpaceParkConsole
         {
             swApi = new SwApi();
         }
-// Testing the actions
+
         public static int Show(string prompt, string[] options)
         {
-            Console.Clearr();
+            Console.Clear();
             if (options == null || options.Length == 0)
             {
                 throw new ArgumentException("Cannot show a menu for an empty array of options.");
