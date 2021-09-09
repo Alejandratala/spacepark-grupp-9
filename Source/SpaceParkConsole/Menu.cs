@@ -17,7 +17,7 @@ namespace SpaceParkConsole
         {
             swApi = new SwApi();
         }
-
+// Testing the actions
         public static int Show(string prompt, string[] options)
         {
             Console.Clear();
